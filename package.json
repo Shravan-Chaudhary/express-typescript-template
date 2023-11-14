@@ -1,0 +1,11 @@
+{
+  "name": "lms-backend",
+  "version": "1.0.0",
+  "description": "backend service for lms app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shravan <shravansinghchaudhary@gmail.com>",
+  "license": "MIT"
+}
