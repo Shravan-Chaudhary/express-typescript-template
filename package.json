@@ -13,14 +13,12 @@
     "lint:fix": "eslint . --fix",
     "prepare": "husky install"
   },
-
-   "lint-staged": {
+  "lint-staged": {
     "*.ts": [
       "npm run lint:fix",
       "npm run format:fix"
     ]
   },
-
   "devDependencies": {
     "@types/node": "^20.10.0",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
