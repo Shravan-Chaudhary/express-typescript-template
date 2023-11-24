@@ -14,8 +14,11 @@
     "prepare": "husky install"
   },
 
-  "lint-staged":{
-    "*ts": ["npm run lint:fix", "npm run format:fix"]
+   "lint-staged": {
+    "*.ts": [
+      "npm run lint:fix",
+      "npm run format:fix"
+    ]
   },
 
   "devDependencies": {
